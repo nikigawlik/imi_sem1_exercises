@@ -1,4 +1,16 @@
 *.class
+*.zip
+*.rar
+*.7z
+
+# BlueJ
+*.ctxt
+*.pkg
+*.bluej
+
+# Mac-OS
+*.DS_Store
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
