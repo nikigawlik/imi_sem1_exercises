@@ -8,13 +8,13 @@ Firstname+ first char of your surname.
 Example: Jannes Brunner -> JannesB 
 (git checkout -b JannesB)
 
-== Rules ==
+#== Rules ==
 
-# PLS ONLY WORK AND COMMIT IN YOUR OWN BRANCH.
+- PLS ONLY WORK AND COMMIT IN YOUR OWN BRANCH.
 
-# Pls adhere to the given dir-construction in the master branch.
+- Pls adhere to the given dir-construction in the master branch.
 
-# Pls only upload .java files (so we can easily compare our work.)
+- Pls only upload .java files (so we can easily compare our work.)
 
 
 
