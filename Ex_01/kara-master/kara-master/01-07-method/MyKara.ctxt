@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ In\ the\ 'act()'\ method\ you\ can\ write\ your\ program\ for\ Kara\ <br>\r\n\ <i>In\ der\ Methode\ 'act()'\ koennen\ die\ Befehle\ fuer\ Kara\ programmiert\ werden</i>\r\n
+comment1.params=
+comment1.target=void\ saintLouisSidestep()
+comment2.params=amount
+comment2.target=void\ party(int)
+numComments=3
