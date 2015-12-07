@@ -18,4 +18,4 @@
 - (For the really bored) Make your answers multilingual. At first you can just set the language at any point, but then you want to read the locale form the local machine to determine how to answer.
 
 
-Source > <a href="http://bkleinen.github.io/ws2015/info1/labs/exercise-07.html">
+Source > <a href="http://bkleinen.github.io/ws2015/info1/labs/exercise-07.html"> Click me! </a>
