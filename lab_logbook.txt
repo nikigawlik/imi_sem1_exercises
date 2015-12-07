@@ -1,0 +1,136 @@
+
+LAB-LOGBOOK		Nils Gawlik
+
+ 
+--- 13.10.15 ---
+
+-browsers: firefox, chrome
+
+-print:
+	-http://oceprint.htw-berlin.de/
+	-USB-stick (more reliable)
+
+-screenshot: snipping tool
+
+-pdf: 
+	-libre office
+
+-java jdk: 
+	-C:\Program Files (x86)\Java\jdk1.7.0_55
+	-C:\Program Files\Java\jdk1.8.0_51
+
+-java version
+	-1.8.0_60
+
+-greenfoot already installed
+
+
+
+
+--- 13.10.15 ---
+
+-inspect
+-drag objects
+-new objects: (new Tree() (rightclick tree))
+-save: right click, save
+-ex 01: 
+ ... code? etc.?
+-messing around with rotaion/turn
+-langtons ant
+
+--- 27.10.15 ---
+jannes brunner
+oliver christ
+
+- e01: he loop, i not
+-method? 
+== true
+
+ex invert:
+    copy from lecture etc. blub
+
+ --- 3.11.15 ---
+squares overlap
+ -> square2.moveDown(); square2.moveRight();
+make all green
+ -> call .setColor("green") for all Squares
+differences
+    diameter vs. size vs. width&height
+    squares: xPosition, yPosition
+constructor
+    sytax is correct
+    sematically the int price does not make sense, has to be declared outside, or else it won't actually set the     price.
+    -> was right, price is always 0 = standard int-value in java
+kara
+    Kara01 has no (own) constructor
+    KaraWorld01 first calls super-constructor with constants. then sets paint order (duh), and greenfoot speed,        then prepare(). prepare() adds objects to the world (in this case only kara)
+
+-- 10.11.15 --
+Found bluej codePad, was already enabled.
+Last one:String OOB exception, oh noes!!!
+...
+E8
+mutator not really neccessary, but why not this further solidifies the function of the counter \_[T]_/
+
+--- 17.11.15 ---
+comp clock disp
+1
+    create isAm
+    change setTime
+    change constructor
+        args
+        12h display
+    change increment
+        inside hour-rollover-if
+    test
+        rollover works
+    change display
+        add am/pm
+        change 00 to 12
+    test 
+        change isAm def value to true (so standard constructor gives a 00:00 am time)
+    test
+        everything ok
+2
+    copy fresh clocksisplay.java file
+    goal: change nothing BUT updateDisplay
+    new method for other hour formatting
+    add ? etc. am, pmThis
+3
+    use clock2 for this
+
+--- 24.11.15 ---
+1 - tested P1 & P2
+  - used assert for P2 and made a new project
+2
+  - added method listNotes with simple for/each
+  - added static test method
+3
+  - added number variable & added to string
+  - kept the for each, because it's still cleaner
+4
+  - did for loop & i--
+  - did Iterator
+      - had to import Iterator
+  - no particular problems
+  - you could forget to use i--
+  - you could do i-- before removing
+  - it might not be understandable for other people, who might copy it and create further bugs
+5
+  - added removedSomething boolean
+  - set to true when removing
+  - error if still on false
+6
+  - well... no it does not check the size at all o_o
+7
+  - did stuff just as prelab
+  - really weird problem with i starting at 1 -> no number evaluates to prime
+  - fixed by rewriting the code and breaking it down into different lines
+  - could not recreate the bug -> did not find out what exactly caused it
+  - did it wih loop and put it into List -> no probs
+8
+  - look at code, future Nils ;)
+9
+  - basics: 2 vars, incrementation -> same functionality as contains
+  - added == '?' to have that functionality
+  - 

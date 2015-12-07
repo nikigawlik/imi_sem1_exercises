@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=content
+comment0.target=Node(char)
+comment1.params=n
+comment1.target=Node\ append(Node)
+comment2.params=
+comment2.target=Node\ getLastChild()
+comment3.params=
+comment3.target=void\ removeLastChild()
+comment4.params=
+comment4.target=Node\ getParent()
+numComments=5
