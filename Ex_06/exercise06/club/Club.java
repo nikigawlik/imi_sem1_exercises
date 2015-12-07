@@ -44,17 +44,16 @@ public class Club
     }
 
     public int numberJoinedInMonth(int month, int year){
-
+    
         int amountOfPeople = 0;
-
+    
         for (Membership member : clubMembers){
             if ((month == member.getMonth()) && (year == member.getYear())){
                 amountOfPeople++;
             }
         }
-
+    
         return amountOfPeople;
-
     }
     
     public void listJoinedInMonth(int month, int year){
@@ -97,7 +96,7 @@ public class Club
         while(it.hasNext())
         {
             Membership member = it.next();
-       
+        
             if(member.getName().toLowerCase().equals(name.toLowerCase()))
                 it.remove();
         }
