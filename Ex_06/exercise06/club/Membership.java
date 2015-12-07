@@ -68,7 +68,6 @@ public class Membership implements Comparable
                month + " of " + year;
     }
     
-    @Override
     public int compareTo(Object o)
     {
         Membership m = (Membership) o;
